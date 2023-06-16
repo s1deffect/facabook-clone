@@ -13,9 +13,7 @@ const Login = () => {
         <LoginForm
         setShow={()=> setShow(true)}
         />
-        <Regiester
-        show={show}
-        setShow={()=>setShow(false)}/>
+        
         
     </div>
     

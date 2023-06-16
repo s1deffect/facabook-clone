@@ -21,9 +21,10 @@ const LoginForm = ({setShow}) => {
                         <div className='text-center text-decoration-none text-primary'> <Link to="/forgetPassword"> forgetting password </Link></div>
 
                         <div className="text-center my-3 p-2 border-top"> 
-                            <Button variant='success'
-                            onClick={setShow}
-                            > Create New Account</Button>
+                            <Button variant='success'>
+                                <Link to="/regiester"> Create New Account </Link>
+                                
+                                </Button>
                         </div>
 
                         <div> <strong> create a page</strong> for a celebrity, brand or business</div>
